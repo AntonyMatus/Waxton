@@ -151,6 +151,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 
 /* text color, link color and link hover color */
 .text-white, .btn-link.text-white, a.text-white-hover:hover { color:#fff; }
+.text-blue-client {color: #00154C;}
 .text-black, .btn-link.text-black,  a.text-black-hover:hover { color:#000; }
 .text-extra-dark-gray, .btn-link.text-extra-dark-gray, a.text-extra-dark-gray-hover:hover { color:#232323; }
 .text-dark-gray, .btn-link.text-dark-gray, a.text-dark-gray-hover:hover { color:#626262; }
@@ -365,6 +366,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .bg-client-blue{background-color: #2C8EFB;}
 .bg-client-blue2{background-color: #D6EBFF;}
 .bg-client-blue3{background-color: #2A4093;}
+.bg-client-blue4 {background-color: #00154C;}
 .bg-white { background-color:#FFF; }
 .bg-black { background-color:#000; }
 .bg-smoky-black { background-color:#101010; }
@@ -2054,6 +2056,7 @@ input.btn:focus { border-width: 2px; }
 .bottom-minus-40px { bottom: -40px; }
 .bottom-minus-45px { bottom: -45px; }
 .bottom-minus-50px { bottom: -50px; }
+.bottom-minus-24px{ bottom: -24px; }
 
 /* right */
 .right-0px { right: 0; }
@@ -2079,6 +2082,9 @@ input.btn:focus { border-width: 2px; }
 .right-60px { right: 60px; }
 .right-auto { right: auto; }
 .right-inherit { right: inherit; }
+.right-6{right: 6%;}
+.right-15{right: 15%;}
+.right-33{right: 33%;}
 
 /* right minus */
 .right-minus-1px { right: -1px; }
@@ -2825,7 +2831,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .top-bar.navbar-dark .header-social-icon > a:hover, 
 .top-bar.navbar-dark .header-cart-icon > a:hover,
 .top-bar.navbar-dark .header-language > a:hover, 
-.top-bar.navbar-dark .header-language.dropdown-style-01 .btn:hover { color: rgba(0,0,0,.6) !important; cursor: pointer; }
+.top-bar.navbar-dark .header-language.dropdown-style-01 .btn:hover {  color: white !important; background: #00154C; text-align: center; border-radius: 20px; font-size: 12px; cursor: pointer; }
 .navbar.navbar-light .navbar-nav .nav-link { color: #fff; }
 .navbar.navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover,
@@ -5135,4 +5141,206 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
 
 .list-valores li {
     margin-bottom: 1.7rem;
+}
+
+.info-subtitle{
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+}
+
+.info-title {
+    color: #FFF;
+    font-family: 'Sora';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info-description{
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Sora';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.align-items-flex-end{
+    align-items: flex-end;
+}
+
+section#shadow-host-companion{
+    padding: 0;
+}
+
+
+/* section servicios */
+
+.title-servicios {
+    color: #D6EBFF;
+    text-align: justify;
+    font-family: 'Source Code Pro';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-button-card{
+    color: #00154C;
+    text-align: justify;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-produccion{
+    border-radius: 25px;
+    background: #00154C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container-production{
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text-pruduccion{
+    color: #FFF;
+    font-family: 'Sora';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* section Banner 2 */
+
+.banner-title2{
+    color: #00154C;
+    font-family: 'Sora';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    margin: 0;
+}
+
+/* section Productos */
+
+.title-productos{
+    color: #00154C;
+    text-align: justify;
+    font-family: 'Source Code Pro';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title-productos-cards{
+    color: #00154C;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-button-card2{
+    color: #fff;
+    text-align: justify;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    right: 15%;
+    width: 250px;
+    text-align: center;
+}
+
+.container-product {
+    background-color: white;
+    border-radius: 25px;
+    width: 360px;
+    height: 350px;
+}
+
+.description-productos-cards{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* section services card */
+
+.description-servicios-cards{
+    color: #00154C;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services-card{
+    gap: 5rem;
+}
+
+.container-services {
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.services-one-title{
+    color: #00154C;
+    text-align: justify;
+    font-family: 'Sora';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.services-one-description{
+    color: #00154C;
+    text-align: justify;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-number-card {
+    color: #00154C;
+    font-family: 'Sora';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
