@@ -6007,7 +6007,7 @@
     .sm-h-350px { height: 350px !important; }
     .sm-h-400px { height: 400px !important; }
     .sm-h-450px { height: 450px !important; }
-    .sm-h-500px { height: 500px !important; }
+    /*  .sm-h-500px { height: 500px !important; } */
     .sm-h-520px { height: 520px !important; }
     .sm-h-550px { height: 550px !important; }
     .sm-h-580px { height: 580px !important; }
@@ -6375,6 +6375,243 @@
     
     /* horizontal portfolio slider */
     .horizontal-portfolio-slider-main .horizontal-portfolio-slider .swiper-slide { height: auto;}
+
+    .nav-header-container{
+        flex-direction: row;
+    }
+
+    .subtitle-section-contact{
+        font-size: 16px;
+    }
+
+    .marquee-contact{
+        font-size: 40px;
+    }
+
+    .text-button-contact{
+        width: 210px;
+        font-size: 16px;
+    }
+
+    .icon-whatssap{
+        width: 60px;
+        right: -28px;
+        top: 34px;
+    }
+
+    .banner-title3{
+        font-size: 16px;
+    }
+
+    .posicionamiento-button2{
+        right: 0;
+        top: 80px;
+        z-index: 999;
+    }
+
+
+    .description-servicios-cards{
+        font-size: 14px;
+    }
+
+    .image-dnone{
+        display: none;
+    }
+
+    .img-logistic{
+        width: 100px;
+    }
+
+    .services-one-title{
+        font-size: 10px;
+    }
+
+    .services-one-description{
+        font-size: 10px;
+    }
+
+    .text-number-card{
+        font-size: 60px;
+        top: -40px;
+    }
+
+    .title-productos-cards{
+        display: none;
+    }
+
+    .title-productos-cards2 {
+        display: block;
+        font-size: 25px;
+    }
+
+    .padding-five-top{
+        padding-top: 10%;;
+    }
+    
+    .description-productos-cards{
+        font-size: 16px;
+    }
+
+    .container-product{
+        padding: 0;
+        width: 300px;
+        height: 290px;
+    }
+
+    .swiper-slide{
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-button-card2{
+        right: 8%;
+    }
+
+    .gap-3rem {
+        gap: 3rem;
+    }
+
+    .title-productos, .title-servicios{
+        font-size: 20px;
+    }
+
+    .banner-title2{
+        font-size: 18px;
+    }
+
+    .text-pruduccion{
+        font-size: 18px;
+    }
+
+    .padding-12-top{
+        padding-top: 12%;
+    }
+
+    .row-gap-3rem{
+        row-gap: 3rem;
+    }
+
+    .w-70px-responsive{
+        width: 70px;
+    }
+
+    .w-120px-responsive{
+        width: 120px;
+    }
+
+    .w-70px{
+        width: 70px;
+    }
+
+    .info-description{
+        font-size: 16px;
+    }
+
+    .container-info{
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .info-title{
+        font-size: 40px;
+    }
+
+    .vision-title, .mision-title, .valores-title{
+        font-size: 18px;
+    }
+
+    .info-vision, .info-mision, .list-valores{
+        font-size: 14px;
+    }
+
+    .vision-responsive, .mision-responsive{
+        align-items: center;
+    }
+
+    .flex-valores{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .margin-4rem-responsive {
+        margin-top: 4rem;
+    }
+
+    .title-filosofia{
+        font-size: 20px;
+    }
+
+    .d-none-responsive {
+        display: block;
+    }
+
+    .title-section-web-pack{
+        font-size: 27px;
+    }
+
+    #nosotros {
+        padding: 100px 0;
+    }
+
+    .sub-title-section-web-pack{
+        font-size: 16px;
+        margin-top: 3rem;
+    }
+
+    .parrafo-section-web-pack{
+        font-size: 16px;
+    }
+
+    .banner-subtitle, .banner-title{
+        font-size: 20px;
+    }
+
+    .navbar-brand{
+        margin-top: 0;
+    }
+
+    .navbar-collapse{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #2C8EFB;;
+        overflow: hidden;
+        box-shadow: 0 20px 15px 0 rgba(23,23,23,.05);
+        max-height: calc(100vh - 65px);
+        height: 100vh;
+        z-index: 9999;
+        display: flex;
+    }
+
+    .navbar.navbar-dark .navbar-nav .nav-link, .navbar.navbar-light .navbar-nav .nav-link, .sticky .navbar.navbar-dark .navbar-nav .nav-link, .sticky .navbar.navbar-light .navbar-nav .nav-link, header.sticky .navbar.top-logo .navbar-nav .nav-link {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Source Code Pro';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 3rem;
+    }
+
+    body {
+        padding-bottom: 3.5rem !important;
+    }
+
+    .sm-h-500px{
+        height: 250px !important;
+        
+    }
+
+    .posicionamiento-button{
+        top: 80px;
+    }
+
+    .text-center-rsp{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 575px) {

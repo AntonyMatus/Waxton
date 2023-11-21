@@ -18,21 +18,20 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     </head>
-    <body data-mobile-nav-style="classic">
+    <body data-mobile-nav-style="classic" class="p-0-responsive">
         <!-- start header -->
         <header class="header-with-topbar">
-            <nav class="navbar navbar-expand-lg navbar-dark flex-column justify-content-center border-bottom border-color-white-transparent header-light bg-client-blue navbar-boxed header-reverse-scroll top-space navbar-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark  border-bottom border-color-white-transparent header-light bg-client-blue navbar-boxed header-reverse-scroll top-space navbar-light ">
+                
                 <div class="container-fluid nav-header-container">
-                    <div class="col-auto col-sm-6 col-lg-6  text-center">
+                    <div class="col-xl-6 col-lg-6 col-sm-6  text-center">
                         <a class="navbar-brand" href="index.html">
                             <img src="images/logos/logo_waxton.png" data-at2x="images/logos/logo_waxton.png" alt="" class="default-logo">
                             <img src="images/logos/logo_waxton.png" data-at2x="images/logos/logo_waxton.png" alt="" class="alt-logo">
                             <img src="images/logos/logo_waxton.png" data-at2x="images/logos/logo_waxton.png" alt="" class="mobile-logo">
                         </a>
                     </div>
-                </div>
-                <div class="container-fluid nav-header-container">
-                    <div class="col-auto col-lg-10 menu-order px-lg-0">
+                    <div class="col-auto col-lg-10 col-sm-6 menu-order px-lg-0">
                         <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
@@ -41,20 +40,20 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ul class="navbar-nav alt-font">
-                                <li class="nav-item dropdown megamenu">
+                                <li class="nav-item  ">
                                     <a href="#inicio" class="nav-link">INICIÓ</a>
                                 </li>
-                                <li class="nav-item dropdown simple-dropdown">
+                                <li class="nav-item  ">
                                     <a href="#nosotros" class="nav-link">NOSOTROS</a>
                                 </li>
-                                <li class="nav-item dropdown simple-dropdown">
+                                <li class="nav-item  ">
                                     <a href="#productos" class="nav-link">PRODUCTOS</a>
                                 </li>
-                                <li class="nav-item dropdown megamenu">
-                                    <a href="javascript:void(0);" class="nav-link">WAXTON LOGISTICS</a>
+                                <li class="nav-item  ">
+                                    <a href="#" class="nav-link">WAXTON LOGISTICS</a>
                                     
                                 </li>
-                                <li class="nav-item dropdown megamenu ">
+                                <li class="nav-item   ">
                                     <a href="#contacto" class="nav-link">CONTACTO</a>
                                 </li>
                             </ul>
@@ -127,17 +126,27 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-6 ">
-                            <h5 class="title-section-web-pack" data-wow-delay="0.1s">
-                                YOU HAVE IT, <br>
-                                WE PACK IT! &nbsp; <img width="80" height="50" src="images/icons/icon_pez.png" alt=""> 
-                            </h5>
-                            <span class="sub-title-section-web-pack mb-3">¡Has encontrado la conexión perfecta!</span>
-                            <p class="parrafo-section-web-pack">
-                                Creemos en ti, en tu marca y somos tus aliados. Ser un socio Waxton te da la tranquilidad de que el producto lo tienes tú y el empaque perfecto lo tenemos nosotros. No tienes que preocuparte por nada, tus insumos podrán empacarse bajo los mejores estándares de calidad.
-                            </p>
+                            <div class="row">
+                                <div class="col-6 col-xl-12">
+                                    <h5 class="title-section-web-pack" data-wow-delay="0.1s">
+                                        YOU HAVE IT, <br>
+                                        WE PACK IT! &nbsp; <img class="image-dnone" width="80" height="50" src="images/icons/icon_pez.png" alt=""> 
+                                    </h5>
+                                </div>
+                                <div class="col-6 col-xl-12 d-none-responsive ">
+                                    <img src="images/CAJA_1.png" alt="Imagen caja" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <span class="sub-title-section-web-pack mb-3">¡Has encontrado la conexión perfecta!</span>
+                                <p class="parrafo-section-web-pack">
+                                    Creemos en ti, en tu marca y somos tus aliados. Ser un socio Waxton te da la tranquilidad de que el producto lo tienes tú y el empaque perfecto lo tenemos nosotros. No tienes que preocuparte por nada, tus insumos podrán empacarse bajo los mejores estándares de calidad.
+                                </p>
+                            </div>
+                            
                             
                         </div>
-                        <div class="col-12 col-lg-6 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s">
+                        <div class="col-12 col-lg-6 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn p-0 image-dnone" data-wow-delay="0.1s">
                             <img src="images/CAJA_1.png" alt="Imagen caja" />
                         </div>
                         
@@ -151,14 +160,14 @@
                     </div>
                 </div>
                 <div class="container padding-three-top " >
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-xl-7 ">
                             <div class="container bg-orange-client p-2rem mb-5">
-                                <div class="row">
-                                    <div class="col-xl-3 p-0 text-center">
+                                <div class="row mision-responsive">
+                                    <div class="col-3 col-xl-3 p-0 text-center">
                                         <span class="mision-title">MISIÓN:</span>
                                     </div>
-                                    <div class="col-xl-9 p-0">
+                                    <div class="col-9 col-xl-9 p-0">
                                         <span class="info-mision">
                                             Brindar soluciones de empaque integrales que permitan el transporte y envío de tus productos con todas las medidas de seguridad y los mejores materiales del mercado.
                                         </span>
@@ -166,11 +175,11 @@
                                 </div>
                             </div>
                             <div class="container bg-client-blue2 border-radius-25px p-2rem">
-                                <div class="row">
-                                    <div class="col-xl-3 p-0 text-center">
+                                <div class="row vision-responsive">
+                                    <div class="col-3 col-xl-3 p-0 text-center">
                                         <span class="vision-title">VISIÓN:</span>
                                     </div>
-                                    <div class="col-xl-9 p-0">
+                                    <div class="col-9 col-xl-9 p-0">
                                         <span class="info-vision">
                                             Posicionarnos como una empresa líder en la producción de <strong>empaques de exportación</strong>  para brindar de manera nacional e internacional las mejores opciones a nuestros clientes.
                                         </span>
@@ -178,22 +187,26 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5">
-                            
+                        <div class="col-xl-5 margin-4rem-responsive">
                             <div class="container bg-client-blue3 p-2rem border-radius-25px">
                                 <div class="row justify-content-center">
                                     <div class="col-xl-7 section-valores">
-                                        <h3 class="valores-title">VALORES:</h3>
-                                        <ul class="list-valores" >
-                                            <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Lealtad</li>
-                                            <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Rapidez</li>
-                                            <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Confianza</li>
-                                            <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Seguridad</li>
-                                            <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Experiencia</li>
-                                            <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Profesionalismo</li>
-                                            <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Especialización</li>
-                                                  
-                                        </ul>
+                                        <div class="row flex-valores">
+                                            <div class="col-4 col-xl-12">
+                                                <h3 class="valores-title">VALORES:</h3>
+                                            </div>
+                                            <div class="col-8 col-xl-12">
+                                                <ul class="list-valores" >
+                                                    <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Lealtad</li>
+                                                    <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Rapidez</li>
+                                                    <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Confianza</li>
+                                                    <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Seguridad</li>
+                                                    <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Experiencia</li>
+                                                    <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Profesionalismo</li>
+                                                    <li><i class="fa fa-check mr-5" aria-hidden="true"></i> Especialización</li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -215,25 +228,25 @@
                     </div>
                 </div>
                 <div class="container padding-ten-top">
-                    <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 client-logo-style-03 align-items-flex-end">
+                    <div class="row row-cols-2 row-cols-lg-4 row-cols-sm-2 client-logo-style-03 align-items-flex-end row-gap-3rem">
                         <!-- start client logo item -->
                         <div class="col text-center sm-no-margin wow animate__fadeIn" data-wow-delay="0.2s">
-                            <a href="#" class="client-logo"><img alt="" src="images/empresas/juanFish.png"></a>
+                            <a href="#" class="client-logo"><img class="w-120px-responsive" alt="" src="images/empresas/juanFish.png"></a>
                         </div>
                         <!-- end client logo item -->
                         <!-- start client logo item -->
                         <div class="col text-center sm-no-margin wow animate__fadeIn" data-wow-delay="0.4s">
-                            <a href="#" class="client-logo"><img alt="" src="images/empresas/Fish.png"></a>
+                            <a href="#" class="client-logo"><img class="w-120px-responsive" alt="" src="images/empresas/Fish.png"></a>
                         </div>
                         <!-- end client logo item -->
                         <!-- start client logo item -->
                         <div class="col text-center sm-no-margin wow animate__fadeIn" data-wow-delay="0.6s">
-                            <a href="#" class="client-logo"><img alt="" src="images/empresas/global_fisheries.png"></a>
+                            <a href="#" class="client-logo"><img class="w-120px-responsive" alt="" src="images/empresas/global_fisheries.png"></a>
                         </div>
                         <!-- end client logo item -->
                         <!-- start client logo item -->
                         <div class="col text-center sm-no-margin wow animate__fadeIn" data-wow-delay="0.8s">
-                            <a href="#" class="client-logo"><img alt="" src="images/empresas/donsaro-seafood.png"></a>
+                            <a href="#" class="client-logo"><img class="w-70px-responsive" alt="" src="images/empresas/donsaro-seafood.png"></a>
                         </div>
                         <!-- end client logo item -->
                     </div>
@@ -250,12 +263,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="container padding-three-top">
-                    <div class="row align-items-center">
+                <div class="container padding-three-top padding-12-top">
+                    <div class="row align-items-center gap-3rem">
                         <div class="col-12 col-lg-6 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
                             <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover">
                                 <div class="position-relative container-produccion padding-3-rem-all md-padding-4-rem-lr">
-                                    <div class="bg-orange-client text-small font-weight-500 alt-font text-blue-client text-uppercase position-absolute top-minus-15px right-33 padding-5px-tb padding-20px-lr text-button-card">PRODUCCIÓN</div>
+                                    <div class="bg-orange-client text-small  alt-font text-blue-client text-uppercase position-absolute top-minus-15px right-33 padding-5px-tb padding-20px-lr text-button-card">PRODUCCIÓN</div>
                                     <span class="text-pruduccion">
                                         Fabricación de cajas de cartón enceradas para la exportación de productos.
                                     </span>
@@ -268,7 +281,7 @@
                         <div class="col-12 col-lg-6 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
                             <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover">
                                 <div class="position-relative container-produccion padding-3-rem-all md-padding-4-rem-lr">
-                                    <div class="bg-orange-client text-small font-weight-500 alt-font text-blue-client text-uppercase position-absolute top-minus-15px right-33 padding-5px-tb padding-20px-lr text-button-card">LOGÍSTICA</div>
+                                    <div class="bg-orange-client text-small  alt-font text-blue-client text-uppercase position-absolute top-minus-15px right-33 padding-5px-tb padding-20px-lr text-button-card">LOGÍSTICA</div>
                                     <span class="text-pruduccion">
                                         Servicio de logística: <br>
                                         Almacenamiento, servicio de entregas e inventario.
@@ -308,11 +321,13 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-12 ">
                             <h2 class="title-productos-cards">CAJAS ENCERADAS ESTÁNDAR</h2>
+                            <h2 class="title-productos-cards2">CAJAS ENCERADAS ESTÁNDAR</h2>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="container padding-three-top">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center gap-3rem">
                         <div class="col-12 col-lg-4 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
                             <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover">
                                 <div class="position-relative container-product md-padding-4-rem-lr">
@@ -344,6 +359,7 @@
                 <div class="container padding-ten-top">
                     <div class="col-xl-12 ">
                         <h2 class="title-productos-cards">CAJAS PERSONALIZADAS</h2>
+                        <h2 class="title-productos-cards2">CAJAS PERSONALIZADAS</h2>
                     </div>
                 </div>
                 <div class="container ">
@@ -354,7 +370,7 @@
                     </div>
                 </div>
                 <div class="container padding-three-top">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center gap-3rem">
                         <div class="col-12 col-lg-4 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
                             <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover">
                                 <div class="position-relative container-product md-padding-4-rem-lr">
@@ -386,6 +402,7 @@
                 <div class="container padding-ten-top">
                     <div class="col-xl-12 ">
                         <h2 class="title-productos-cards">CAJAS AMERICANAS</h2>
+                        <h2 class="title-productos-cards2">CAJAS ENCERADAS AMERICANAS</h2>
                     </div>
                 </div>
                 <div class="container ">
@@ -396,7 +413,7 @@
                     </div>
                 </div>
                 <div class="container padding-three-top">
-                    <div class="row align-items-center justify-content-center">
+                    <div class="row align-items-center justify-content-center gap-3rem">
                         <div class="col-12 col-lg-4 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
                             <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover">
                                 <div class="position-relative container-product md-padding-4-rem-lr">
@@ -426,9 +443,9 @@
             <section id="" class="background-position-left-bottom background-no-repeat bg-client-blue2" >
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-xl-12 text-center ">
-                            <img src="images/logos/Recurso7_1.png" alt="">
-                            <img src="images/logos/Recurso_11.png" alt="">
+                        <div class="col-xl-12 text-center text-right-response ">
+                            <img class="image-dnone" src="images/logos/Recurso7_1.png" alt="">
+                            <img class="img-logistic" src="images/logos/Recurso_11.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -449,15 +466,16 @@
                                 <div class="position-relative container-services padding-3-rem-all md-padding-4-rem-lr">
                                     <div class="text-small font-weight-500 alt-font text-blue-client text-uppercase position-absolute top-minus-60px left-0 padding-5px-tb padding-20px-lr text-number-card">1</div>
                                     <div class="row align-items-center">
-                                        <div class="col-xl-4">
+                                        <div class="col-4 col-xl-4">
                                             <span class="services-one-title">
                                                 RECEPCIÓN <br> DEL PEDIDO
                                             </span>
-                                        </div>
-                                        <div class="col-xl-2">
                                             <img src="images/icons/Arrow_2.png" alt="Arrow_2">
                                         </div>
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-2 image-dnone">
+                                            <img src="images/icons/Arrow_2.png" alt="Arrow_2">
+                                        </div>
+                                        <div class="col-8 col-xl-6">
                                             <span class="services-one-description">
                                                 Nos encargamos de recibir todos los pedidos que se realicen, procurando contar con inventario eficaz para lograr un “flujo tenso”, es decir garantizar que los productos lleguen a tu almacén justo a tiempo para servirlos.
                                             </span>
@@ -473,15 +491,16 @@
                                 <div class="position-relative container-services padding-3-rem-all md-padding-4-rem-lr">
                                     <div class="text-small font-weight-500 alt-font text-blue-client text-uppercase position-absolute top-minus-60px left-0 padding-5px-tb padding-20px-lr text-number-card">2</div>
                                     <div class="row align-items-center">
-                                        <div class="col-xl-4">
+                                        <div class="col-4 col-xl-4">
                                             <span class="services-one-title">
                                                 ALMACENAMIENTO
                                             </span>
-                                        </div>
-                                        <div class="col-xl-2">
                                             <img src="images/icons/Arrow_2.png" alt="Arrow_2">
                                         </div>
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-2 image-dnone">
+                                            <img src="images/icons/Arrow_2.png" alt="Arrow_2">
+                                        </div>
+                                        <div class="col-8 col-xl-6">
                                             <span class="services-one-description">
                                                 Al ya recibir tus cajas en nuestro almacén te proporcionaremos inventarios semanales para la constante actualización del inventario disponible.
                                             </span>
@@ -497,15 +516,16 @@
                                 <div class="position-relative container-services padding-3-rem-all md-padding-4-rem-lr">
                                     <div class="text-small font-weight-500 alt-font text-blue-client text-uppercase position-absolute top-minus-60px left-0 padding-5px-tb padding-20px-lr text-number-card">3</div>
                                     <div class="row align-items-center">
-                                        <div class="col-xl-4">
+                                        <div class="col-4 col-xl-4">
                                             <span class="services-one-title">
                                                 PREPARACIÓN <br> Y ENVÍO DEL PEDIDO
                                             </span>
-                                        </div>
-                                        <div class="col-xl-2">
                                             <img src="images/icons/Arrow_2.png" alt="Arrow_2">
                                         </div>
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-2 image-dnone">
+                                            <img src="images/icons/Arrow_2.png" alt="Arrow_2">
+                                        </div>
+                                        <div class="col-8 col-xl-6">
                                             <span class="services-one-description">
                                                 Cada pedido recibido será preparado y entregado en menos de 24 horas, proporcionando con ello notas de entrega y actualizaciones de inventario.
                                             </span>
@@ -521,15 +541,17 @@
                                 <div class="position-relative container-services padding-3-rem-all md-padding-4-rem-lr">
                                     <div class="text-small font-weight-500 alt-font text-blue-client text-uppercase position-absolute top-minus-60px left-0 padding-5px-tb padding-20px-lr text-number-card">4</div>
                                     <div class="row align-items-center">
-                                        <div class="col-xl-4">
+                                        <div class="col-4 col-xl-4">
                                             <span class="services-one-title">
                                                 GESTIÓN DE <br> DEVOLUCIONES
                                             </span>
+                                            <img src="images/icons/Arrow_2.png" alt="Arrow_2">
+
                                         </div>
-                                        <div class="col-xl-2">
+                                        <div class="col-xl-2 image-dnone">
                                             <img src="images/icons/Arrow_2.png" alt="Arrow_2">
                                         </div>
-                                        <div class="col-xl-6">
+                                        <div class="col-8 col-xl-6">
                                             <span class="services-one-description">
                                                 En caso de ser requerido contamos con la capacidad para gestionar devoluciones e ingresarlas a nuestro almacén.
                                             </span>
@@ -558,7 +580,7 @@
                         </div>
                         
                     </div>
-                    <img class="position-absolute posicionamiento-button" src="images/icons/expertos-en-cajas.png" alt="button expertos">
+                    <img class="position-absolute posicionamiento-button2" src="images/icons/expertos-en-logistica.png" alt="button expertos">
                 </div>
                 
             </section>
@@ -567,10 +589,10 @@
             <section id="contacto" class="background-position-left-bottom background-no-repeat bg-client-blue p-0" >
                 <div class="container padding-five-top m-0 padding-five-bottom max-width-100-porcent">
                     <div class="row align-items-center ">
-                        <div class="col-6 col-lg-5 p-0">
+                        <div class="col-5 col-lg-5 p-0">
                             <img src="images/logos/CAJA2.png" alt="caja 2">
                         </div>
-                        <div class="col-6 col-lg-7 p-0">
+                        <div class="col-7 col-lg-7 p-0">
                             <marquee class="marquee-contact" behavior="scroll" direction="left">¡CONTÁCTANOS! - ¡CONTÁCTANOS! - ¡CONTÁCTANOS!</marquee>
 
                             <h4 class="subtitle-section-contact padding-ten-top">¡Estamos para servirte! ></h4>
@@ -590,12 +612,14 @@
         <footer class="footer-dark  " >
             <div class="footer-bottom padding-four-top padding-four-bottom d-inline-block w-100 bg-client-blue3">
                 <div class="container"> 
-                    <div class="row align-items-center">
+                    <div class="row align-items-center justify-content-between text-center-rsp">
                         <div class="col-12 col-sm-4 text-center text-sm-start xs-margin-20px-bottom">
                             <a href="#!" class="footer-logo"><img src="images/logos/logo-footer.png" data-at2x="images/logos/logo-footer.png" alt=""></a>
                         </div>
-                        <div class="col-12 col-sm-8 text-center text-sm-end last-paragraph-no-margin">
-                            <p class="footer-text">WAXTON, 2023 / MÉRIDA, MÉXICO.</p>
+                        <div class="col-12 col-sm-4  text-left  last-paragraph-no-margin">
+                            <p class="footer-text">WAXTON, 2023 / MÉRIDA, MÉXICO. <br>
+                                DESARROLLADO POR <a class="link-buho" href="https://www.buho-solutions.com/" target="_blank">BUHO SOLUTIONS</a>
+                            </p>
                         </div>
                     </div>
                 </div>

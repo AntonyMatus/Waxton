@@ -4956,7 +4956,8 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
     justify-content: center !important;
 }
 .nav-header-container{
-    justify-content: center !important;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .slider-text-1{
@@ -5031,9 +5032,21 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
     top: 140px;
     z-index: 999;
 }
+.posicionamiento-button2{
+    width: 300px;
+    right: 0;
+    top: 140px;
+    z-index: 999;
+}
 
 .overflow-initial{
     overflow: initial;
+}
+
+.img-logetic {}
+
+.text-right-response{
+    text-align: right !important;
 }
 
 .title-section-web-pack {
@@ -5265,6 +5278,16 @@ section#shadow-host-companion{
     font-weight: 700;
     line-height: normal;
 }
+.title-productos-cards2{
+    color: #00154C;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: none;
+}
 
 .text-button-card2{
     color: #fff;
@@ -5422,4 +5445,21 @@ section#shadow-host-companion{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.footer-text .link-buho{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.flex-valores {
+    flex-direction: column;
+}
+
+.d-none-responsive {
+    display: none;
+}
+
+.p-0-responsive{
+    padding-top: 0 !important;
 }
