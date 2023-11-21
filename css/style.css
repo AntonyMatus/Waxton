@@ -2232,6 +2232,7 @@ input.btn:focus { border-width: 2px; }
 .w-95 { width: 95%; }
 .w-100 { width: 100%; }
 .w-auto { width:auto; }
+.max-width-100-porcent {max-width: 100%;}
 
 /* ===================================
     15. Height
@@ -5340,6 +5341,84 @@ section#shadow-host-companion{
     color: #00154C;
     font-family: 'Sora';
     font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* section banner 2 */
+
+.banner-background {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+/* cta 2 */
+
+.banner-title3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.marquee-contact{
+    color: #00154C;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitle-section-contact{
+    color: #00154C;
+    font-variant-numeric: stacked-fractions;
+    font-feature-settings: 'case' on;
+    font-family: Sora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-button-contact{
+    color: #fff;
+    text-align: justify;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    width: 400px;
+    height: 100px;
+    text-align: left;
+    border-radius: 25px;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-whatssap{
+    position: absolute;
+    right: -70px;
+    width: 100px;
+    top: 10px;
+}
+
+/* Footer */
+
+.footer-text{
+    color: #FFF;
+    font-family: 'Sora';
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
