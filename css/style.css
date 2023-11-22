@@ -1621,7 +1621,13 @@ input.btn:focus { border-width: 2px; }
 .padding-10-rem-top { padding-top: 10rem; }
 .padding-10-half-rem-top { padding-top: 10.5rem; }
 
+.padding-responsive{
+    padding-top: 12.2%;
+    padding-bottom: 0px;
+}
+
 /* padding bottom */
+.padding-cero-bottom {padding-bottom: 0%;}
 .padding-one-bottom { padding-bottom:1%; }
 .padding-two-bottom { padding-bottom:2%; }
 .padding-three-bottom { padding-bottom:3%; }
@@ -5462,4 +5468,12 @@ section#shadow-host-companion{
 
 .p-0-responsive{
     padding-top: 0 !important;
+}
+
+#nosotros {
+    padding-top: 0;
+}
+
+#inicio {
+    padding-bottom: 0;
 }
