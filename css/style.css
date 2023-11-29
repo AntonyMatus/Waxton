@@ -367,6 +367,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .bg-client-blue2{background-color: #D6EBFF;}
 .bg-client-blue3{background-color: #2A4093;}
 .bg-client-blue4 {background-color: #00154C;}
+
 .bg-white { background-color:#FFF; }
 .bg-black { background-color:#000; }
 .bg-smoky-black { background-color:#101010; }
@@ -5477,3 +5478,8 @@ section#shadow-host-companion{
 #inicio {
     padding-bottom: 0;
 }
+
+.img-responsive-none{
+    display: none;
+}
+

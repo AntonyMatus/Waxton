@@ -6,8 +6,22 @@
  * Copyright (c) 2021 themezaa.com
  */
 
+
+@media screen and (max-width: 2732px) and (min-width:2000px){
+    .padding-responsive{
+        padding-top: 6%;
+    }
+}
+
+@media screen and (max-width: 1900px) and (min-width:1500px){
+    .padding-responsive{
+        padding-top: 7%;
+    }
+}
+
 @media (min-width: 1901px) {
     .litho-parallax-bg { width: 45%; }
+    
 }
 
 @media (max-width: 1600px) {
@@ -2797,6 +2811,8 @@
     
     /* magnific popup */
     button.mfp-close, .mfp-image-holder button.mfp-close, .mfp-iframe-holder button.mfp-close, .mfp-close:active { top: 20px; right: 20px; }
+    
+    
 }
 
 @media (max-width: 1024px) {
@@ -2871,7 +2887,7 @@
     }
 
     .w-120px-responsive{
-        width: 190px;
+        width: auto;
     }
     .container-info{
         margin-top: 4rem;
@@ -3278,7 +3294,7 @@
     }
 
     .w-120px-responsive {
-        width: 120px;
+        width: auto;
     }
 
     .row-gap-3rem{
@@ -6753,9 +6769,17 @@
     }
 
     .w-120px-responsive{
-        width: 120px;
+        width: auto;
+        height: 110px;
     }
 
+    .padding-responsive{
+        padding-top: 17%;
+    }
+
+    .cover-background{
+        background-size: cover;
+    }
     .w-70px{
         width: 70px;
     }
@@ -6872,6 +6896,14 @@
         padding-top: 10rem;
     }
 
+    .img-responsive-none{
+        display: block;
+    }
+
+    .md-padding-4-rem-lr {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
     
 }
 
@@ -6879,6 +6911,8 @@
     .icon-whatssap{
         right: -14px;
     }
+
+    
 }
 
 @media screen and (max-width: 575px) {
