@@ -5483,3 +5483,48 @@ section#shadow-host-companion{
     display: none;
 }
 
+
+.img-logo1{
+    width: 91px;
+    height: 169px;
+    padding: 0;
+}
+.img-logo2{
+    width: 230px;
+    height: 109px;
+    padding: 0;
+}
+.img-logo3{
+    width: 124px;
+    height: 169px;
+    padding: 0;
+}
+.img-logo4{
+    width: 263px;
+    height: 78px;
+    padding: 0;
+}
+
+.container-logos {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.max-width-100 {
+    max-width: 100% !important;
+}
+
+.container-contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.img-caja {
+    position: absolute;
+    width: 700px;
+    top: -190px;
+    left: -16px;
+}
