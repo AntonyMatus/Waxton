@@ -2839,7 +2839,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .top-bar.navbar-dark .header-social-icon > a:hover, 
 .top-bar.navbar-dark .header-cart-icon > a:hover,
 .top-bar.navbar-dark .header-language > a:hover, 
-.top-bar.navbar-dark .header-language.dropdown-style-01 .btn:hover {  color: white !important; background: #00154C; text-align: center; border-radius: 20px; font-size: 12px; cursor: pointer; }
+.top-bar.navbar-dark .header-language.dropdown-style-01 .btn:hover {  color: white !important; background: #00154C; text-align: center; border-radius: 20px; font-size: 14px; cursor: pointer; }
 .navbar.navbar-light .navbar-nav .nav-link { color: #fff; }
 .navbar.navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover,
@@ -5509,6 +5509,7 @@ section#shadow-host-companion{
     justify-content: space-evenly;
     align-items: center;
     padding: 30px;
+    flex-flow: wrap;
 }
 
 .max-width-100 {
@@ -5527,4 +5528,74 @@ section#shadow-host-companion{
     width: 700px;
     top: -190px;
     left: -16px;
+}
+
+.card2 {
+    width: auto;
+    padding: 0;
+}
+
+.img-caja-2 {
+    position: absolute;
+    width: 500px;
+    top: -61px;
+    right: -88px;
+    padding: 0;
+
+}
+
+.container_translate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 170px;
+    gap: 2rem;
+    top: 27px;
+}
+
+.pr-respinsive{
+    position: relative;
+}
+
+.img-menu-resp {
+    display: none;
+}
+
+.mb-responsive{
+    margin-bottom: 7rem;
+}
+
+.container_translate-2{
+    display: none;
+}
+
+.link-esp {
+    color: #FFF;
+    font-family: 'Source Code Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.separador-horizontal {
+    width: 1px;
+    height: 40px;
+    background-color: #FFF;
+}
+
+.link-eng {
+    color: #FFF;
+    font-family: 'Source Code Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.link-esp:hover, .link-eng:hover {
+    color: #fff;
 }

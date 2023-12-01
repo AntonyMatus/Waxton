@@ -2901,6 +2901,17 @@
         font-size: 22px;
     }
 
+    .h-250px-resp{
+        height: 600px !important;
+    }
+
+    .img-caja-2 {
+        position: absolute;
+        width: 400px;
+        top: 8px;
+        right: -21px;
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width:1024px) and (min-width: 778px) {
@@ -3223,9 +3234,9 @@
 
     .icon-whatssap{
         position: absolute;
-        right: -45px;
-        width: 80px;
-        top: 27px;
+        right: -23px;
+        width: 70px;
+        top: 39px;
     }
 
     .marquee-contact{
@@ -4951,6 +4962,58 @@
     
     /* consulting */
     .home-dentist .popup-youtube.absolute-middle-center { left: 50%; }
+
+    .card2 {
+        width: 40%;
+    }
+
+    .container-logos{
+        row-gap: 5rem;
+    }
+
+    .img-logo1{
+        width: 101px;
+        height: 179px;
+    }
+
+    .img-logo3 {
+        width: 134px;
+        height: 179px;
+        padding: 0;
+    }
+
+    .img-caja{
+        position: absolute;
+        width: 550px;
+        top: -164px;
+        left: -17px;
+    }
+
+    .img-caja-2 {
+        position: absolute;
+        width: 250px;
+        top: -68px;
+        right: -24px;
+        padding: 0;
+    }
+
+    .img-responsive-none{
+        display: block;
+    }
+    .container_translate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 170px;
+        gap: 2rem;
+        top: 18px;
+        z-index: 10;
+    }
+
+    .h-250px-resp {
+        height: 500px !important;
+    }
 }
 
 @media only screen and (max-width: 991px) and (orientation: landscape) {
@@ -5007,6 +5070,8 @@
     .md-landscape-h-600px { height: 600px !important; }
     .md-landscape-h-650px { height: 650px !important; }
     .md-landscape-h-700px { height: 700px !important; }
+
+    
 }
 
 @media only screen and (max-width: 991px) and (min-width: 767px) and (orientation: landscape) {
@@ -6864,6 +6929,8 @@
         height: 100vh;
         z-index: 9999;
         display: flex;
+        flex-direction: column;
+        gap: 6rem;
     }
 
     .navbar.navbar-dark .navbar-nav .nav-link, .navbar.navbar-light .navbar-nav .nav-link, .sticky .navbar.navbar-dark .navbar-nav .nav-link, .sticky .navbar.navbar-light .navbar-nav .nav-link, header.sticky .navbar.top-logo .navbar-nav .nav-link {
@@ -6904,12 +6971,71 @@
         padding-left: 0.8rem;
         padding-right: 0.8rem;
     }
+
+    .card2 {
+        width: 80%;
+    }
+
+    .container-logos {
+        text-align: center;
+    }
+
+    .img-caja {
+        position: absolute;
+        width: 350px;
+        top: -78px;
+        left: -78px;
+    }
+
+    .img-caja-2 {
+        position: absolute;
+        width: 180px;
+        top: -54px;
+        right: 0px;
+        padding: 0;
+    }
+
+    .container_translate{
+        display: none;
+    }
+
+    .pr-respinsive{
+        position: initial;
+    }
+
+    .img-menu-resp {
+        display: block;
+        width: 200px;
+    }
+
+    .container_translate-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .container_translate-2 .link-esp, .container_translate-2 .link-eng {
+        font-size: 24px;
+    }
+
+    .h-250px-resp{
+        height: 250px !important;
+    }
     
 }
 
 @media (max-width: 420px) {
     .icon-whatssap{
         right: -14px;
+    }
+
+    .valores-title {
+        font-size: 16px;
+    }
+
+    .vision-title, .mision-title, .valores-title {
+        font-size: 15px;
     }
 
     
