@@ -2945,7 +2945,6 @@
     .navbar-collapse{
         position: absolute;
         top: 100%;
-        left: 0;
         width: 100%;
         background: #2C8EFB;;
         overflow: hidden;
@@ -6996,7 +6995,12 @@
     }
 
     .container_translate{
-        display: none;
+        display: flex;
+        right: 70px;
+    }
+
+    .link-esp, .link-eng {
+        font-size: 14px;
     }
 
     .pr-respinsive{
