@@ -6910,6 +6910,7 @@
 
     .banner-subtitle, .banner-title{
         font-size: 20px;
+        margin-bottom: 0;
     }
 
     .navbar-brand{
